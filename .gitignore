@@ -1,0 +1,8 @@
+.idea
+.vercel
+.prettierrc.js
+.parcel-cache
+
+node_modules
+dist
+
