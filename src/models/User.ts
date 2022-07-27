@@ -2,7 +2,7 @@ interface UserProps {
 	[key: string]: string | number;
 }
 
-type Callback = () => {};
+type Callback = () => void;
 
 export class User {
 	constructor(private data: UserProps) {}
@@ -15,5 +15,5 @@ export class User {
 		Object.assign(this.data, update);
 	}
 
-	on(eventName: string, callback: Callback) {}
+	on(eventName: string, callback: Callback): void {}
 }
