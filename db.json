@@ -1,9 +1,16 @@
 {
   "users": [
     {
-      "name": "NikDoe",
-      "age": 29,
-      "id": 1
+      "id": 1,
+      "fullName": "Nikita Kuzmenko"
+    },
+    {
+      "id": 2,
+      "fullName": "Nikita Kuzmenko"
+    },
+    {
+      "name": "Nik",
+      "id": 3
     }
   ]
 }
