@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:db": "json-server -w db.json",
+    "start:parcel": "parcel index.html",
+    "start": "concurrently npm:start:*"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,9 @@
   "homepage": "https://github.com/NikDoe/ts-framework#readme",
   "devDependencies": {
     "prettier": "2.7.1"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "concurrently": "^7.3.0"
   }
 }
