@@ -1,11 +1,7 @@
 import { User } from './models/User';
 
-const user = new User({ name: 'NikDoe', age: 29 });
+const user = new User({ id: 1 });
 
-user.on('change', () => {
-	console.log('user was change');
-});
-
-user.set({ name: 'Nik' });
+user.fetch();
 
 console.log(user);
