@@ -2,7 +2,8 @@
   "users": [
     {
       "id": 1,
-      "fullName": "Nikita Kuzmenko"
+      "nikName": "NikDoe",
+      "age": 0
     },
     {
       "id": 2,
